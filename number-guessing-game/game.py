@@ -12,6 +12,6 @@ while True:
             print("Too high! Try again.")
         else:
             print(f"Congratulations! You guessed the number {secret_number} correctly!")
-            break  # Exit the loop when the guess is correct
+            break  # This must be indented to be part of the 'else' block
     except ValueError:
         print("Invalid input. Please enter a valid number.")
